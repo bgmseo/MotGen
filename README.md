@@ -4,8 +4,8 @@ We present the MotGen as a combination of Matlab image analysis code and ML work
 ![Schematic](https://github.com/bgmseo/MotGen/assets/118337203/64635022-256d-43b4-8b75-b805f9378bc9)
 
 # Requirements 
-* Tensorflow (>= 1.8.0)
-* Python (>= 2.7)
+* Tensorflow (>= 2.5.0)
+* Python (>= 3.5)
 * Python packages : numpy, pandas, os, sys, matplotlib
 * Matlab Image Processing Toolbox
 
