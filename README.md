@@ -13,12 +13,12 @@ We present the MotGen as a combination of Matlab image analysis code and ML work
 download source code files and trained models. 
 
 # Image Analysis: BacTracking
-* "exp126_8bit.tif" are the example bacteria live cell imaging saved in a series of tif files 
-* "tracktest_BGM.m" complementary Matalab codes that track moving bacteria with a summary of extracted 15 motility feature statistics. 
+* Inside Samplevideo.zip file "exp126_8bit.tif" is the sample bacteria live cell imaging saved in a series of tif files 
+* "tracktest_BGM.m" complementary Matalab codes that track moving bacteria with a summary of extracted 15 motility feature statistics using the cell imaging tif files.  
   
 # Generative Model : ML 
-* Run "generatemotility.ipynb" to generate bacterial motility statistics
-* Run "Motility_Predictions.ipynb" to predict environments (pH, Temperature) for desired motility features 
+* Run "generatemotility.ipynb" to generate bacterial motility statistics in given condtions
+* Run "Motility_Predictions.ipynb" to predict environment features (pH, Temperature) for desired motility statistics 
 
 # Contact 
 If you have any questions or problems, please contact to bgm.seo AT snu.ac.kr
