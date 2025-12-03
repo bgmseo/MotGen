@@ -2,10 +2,6 @@
 
 MotGen is a bacterial motility generator that combines MATLAB-based image analysis with a Python machine learning workflow. The project demonstrates how tracking data from live-cell imaging can drive generative models for motility statistics and environment prediction while highlighting skills relevant to computer vision, machine learning, and data engineering roles.
 
->  Quick pitch (for recruiters and collaborators):  Ready-to-run image analysis plus GAN-based synthesis that showcases end-to-end ownership—from data wrangling and feature engineering to modeling, validation, and storytelling with visuals.
-
->  Portfolio note:  This repository is organized to read like a project hand-off: a concise overview, documented workflows, and runnable assets that show end-to-end ownership.
-
 ![Schematic](https://github.com/bgmseo/MotGen/assets/118337203/64635022-256d-43b4-8b75-b805f9378bc9)
 
 ## Project highlights
@@ -18,31 +14,11 @@ MotGen is a bacterial motility generator that combines MATLAB-based image analys
 
 ## Tech stack & career highlights
 
--  Languages : MATLAB (image analysis), Python (3.5+ for ML notebooks)
+-  Languages : MATLAB (image analysis), Python (3.5+ for ML notebooks, obejct tracking)
 -  Frameworks : TensorFlow 2.5+, GAN-based generative modeling for data augmentation and conditional synthesis
 -  Core libraries : NumPy, pandas, Matplotlib, OS/Sys utilities for data wrangling and visualization
 -  MLOps-friendly assets : Notebook-first experiments that can be refactored into pipelines; clear dependency list for reproducible setups
 -  Tooling : Jupyter Notebook for iterative exploration and visualization; MATLAB Image Processing Toolbox for feature extraction
-
-## Career-aligned skills on display
-
--  Signal & image processing : Feature engineering from time-lapse microscopy, noise handling, and pre-processing rigor.
--  Modeling & evaluation : GAN-based synthesis plus predictive models tied to real-world outcomes (pH, temperature).
--  Data engineering : Clear folder conventions and dependency notes to support scaling experiments into pipelines.
--  Visualization & storytelling : Schematic, notebook outputs, and README flow designed to show results and rationale quickly.
-
-### Role alignment
-
--  Computer Vision / ML Engineer : Demonstrates feature extraction, GAN modeling, and experiment tracking that map to productionization tasks.
--  Data Scientist : Shows exploratory notebooks, hypothesis-driven evaluation, and clarity in communicating assumptions and results.
--  Research Engineer : Highlights reproducible pipelines, structured datasets, and adaptability for new experimental conditions.
-
-## Repository structure
-
-- `BacTracking/`: MATLAB scripts for feature extraction from microscopy TIFF stacks (see `tracktest_BGM.m`).
-- `ML/`: Jupyter notebooks for generative modeling and environment prediction.
-- `Schematic.jpeg`: High-level system schematic.
-- `README.md`: Project overview, skill highlights, and getting-started guide.
 
 ## Requirements
 
